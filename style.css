@@ -13,12 +13,37 @@ body {
     padding: 20px;
 }
 
-.apresentacao {
-    padding: 70px;
-    border-radius: 90px;
-    margin: 80px;
+.primeiro_container{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.primeiro_container h1{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.segundo_container {
+    padding: 4px 7px;
+    display: flex;
+}
+
+.segundo_container img{
+    width: 30%;
+    height: 34%;
+    display: flex;
+    flex-direction: center;
+    margin-bottom: 30px;
+}
+
+
+.primeira_div, .segunda_div, .terceira_div{
+    padding: 40px;
+    border-radius: 50px;
+    margin: 40px;
     background-color: rgb(170, 3, 106);
-    
+    box-shadow: 8px 5px 5px black;
 }
 
 h1{
@@ -28,7 +53,7 @@ h1{
 }
 
 p{
-    font-size: 22px;
+    font-size: 20px;
     line-height: 30px;
     text-align: justify;
 }
