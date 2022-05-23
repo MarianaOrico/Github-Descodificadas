@@ -1,0 +1,40 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(240, 135, 184);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(201, 60, 126);
+    padding: 20px;
+}
+
+.apresentacao {
+    padding: 70px;
+    border-radius: 90px;
+    margin: 80px;
+    background-color: rgb(170, 3, 106);
+    
+}
+
+h1{
+    margin-top: -38px;
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    font-size: 22px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+footer{
+    background-color: rgb(201, 60, 126);
+    padding: 22px;
+    text-align: center;
+}
